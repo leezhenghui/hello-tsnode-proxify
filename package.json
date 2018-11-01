@@ -1,0 +1,25 @@
+{
+  "name": "hello-tsnode-proxify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/helloworld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	  "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "build": "tsc",
+    "start": "node dist/helloworld.js"
+  },
+  "keywords": [
+    "sample",
+    "helloworld"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.14.3",
+    "typescript": "^3.1.5"
+  },
+  "dependencies": {
+    "tsnode-proxify": "^0.2.0-beta.4"
+  }
+}
